@@ -4,7 +4,6 @@ export default function Down() {
     return (
         <div className="flex justify-center items-center w-full bg-black min-h-screen px-8 lg:px-16 py-8">
             <div className="flex justify-between items-center w-full max-w-6xl gap-12">
-                {/* Image Section */}
                 <div className="flex-1 flex justify-center">
                     <div className="relative">
                         <Image 
@@ -15,12 +14,9 @@ export default function Down() {
                             className="object-cover rounded-2xl shadow-2xl"
                             priority
                         />
-                        {/* Optional overlay effect */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                     </div>
                 </div>
-
-                {/* Text Section */}
                 <div className="flex-1 flex flex-col justify-center text-white">
                     <div className="space-y-6">
                         <h2 className="text-5xl lg:text-6xl font-bold leading-tight">
