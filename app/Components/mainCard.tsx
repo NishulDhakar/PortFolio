@@ -22,17 +22,7 @@ export default function DeveloperHero() {
   };
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center  py-8 sm:px-6 md:px-12 relative overflow-hidden">
-  
-      {/* Floating code snippets */}
-      {/* <div className="hidden md:block absolute top-10 right-10 opacity-20  font-mono text-xs text-cyan-400 transform rotate-12 animate-float">
-        <Code className="inline-block mr-1" size={12} />
-        const skills = ["React", "Next.js"];
-      </div>
-      <div className="hidden md:block absolute bottom-10 left-10 opacity-20 font-mono text-xs text-purple-400 transform -rotate-12 animate-float delay-1000">
-        <Sparkles className="inline-block mr-1" size={12} />
-        building(); // awesome stuff
-      </div> */}
+    <div className="min-h-screen w-full flex flex-col items-center justify-center  py-8 sm:px-6 md:px-12 relative overflow-hidden">git add .
 
       {/* Main card */}
       <div
@@ -72,7 +62,7 @@ export default function DeveloperHero() {
 
             <div>
               <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-                Hi, I'm{" "}
+                Hi, I am{" "}
                 <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient">
                   Nishul
                 </span>
@@ -87,7 +77,7 @@ export default function DeveloperHero() {
 
           {/* Description */}
           <p className="text-base sm:text-lg text-slate-300 mb-12 leading-relaxed max-w-md mx-auto sm:mx-0">
-            I'm a Computer Science student and full-stack developer.
+            I am a Computer Science student and full-stack developer.
             <br />
              work with technologies like React, Next.js, Tailwind CSS, Node.js,
             TypeScript, and MongoDB.
