@@ -12,7 +12,6 @@ export default function NameEffect(){
     
       return (
         <>        
-          {/* Physical Switch - Positioned like a real wall switch */}
           <div className="fixed top-8 right-8 z-20">
             <PhysicalSwitch
               isOn={lightOn} 
@@ -26,7 +25,6 @@ export default function NameEffect(){
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                 </div>
                 
-                
                 {/* Light Effect */}
                 {lightOn && (
                   <div className="absolute inset-0 lg:mt-44 mt-16 lg:px-14 pl-6 transition-opacity duration-500 opacity-100 ">
@@ -34,6 +32,7 @@ export default function NameEffect(){
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                   </div>
                 )}
+              
                 {/* Text Content */}
                 <div className="relative z-10 lg:pl-14 pl-24 lg:mb-40 mt-32">
                   <h1 className="font-sans font-extrabold text-6xl lg:text-[84px] leading-[1.1] tracking-tight">
