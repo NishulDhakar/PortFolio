@@ -7,6 +7,8 @@ import NameEffect from "./Components/nameEffect";
 export default function Home() {
 
   return (
+    <>
+    <script defer data-domain="nishul.dev" src="https://plausible.io/js/script.js"></script>
 
     <div className="md:flex justify-between items-center w-full min-h-screen px-8 lg:px-28 py-8 relative overflow-hidden">
             <div>
@@ -17,5 +19,6 @@ export default function Home() {
              <DeveloperHero />
             </div>
         </div>
+        </>
     );
 }

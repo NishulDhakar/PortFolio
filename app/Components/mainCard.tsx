@@ -22,7 +22,7 @@ export default function DeveloperHero() {
   };
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center  py-8 sm:px-6 md:px-12 relative overflow-hidden">git add .
+    <div className="min-h-screen w-full flex flex-col items-center justify-center  py-8 sm:px-6 md:px-12 relative overflow-hidden">
 
       {/* Main card */}
       <div
