@@ -98,7 +98,7 @@ export default function DeveloperHero() {
             <button className="group px-8 py-4 bg-transparent border-2 border-cyan-400 text-cyan-400 font-semibold rounded-2xl hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/25">
               <div className="flex items-center justify-center gap-3">
                 <Download className="w-5 h-5 group-hover:animate-bounce" />
-                <Link href="https://drive.google.com/file/d/1R0qPNijh5FBUTJv20U9P6kr7irMuD3X2/view?usp=drive_link" target="_blank" className="flex items-center gap-2">
+                <Link href="https://drive.google.com/file/d/1WtQjvplljIClCwtqiQ0tSje5wSW4uDHO/view?usp=drive_link" target="_blank" className="flex items-center gap-2">
                 <span>Download Resume</span>
                 </Link>
               </div>
