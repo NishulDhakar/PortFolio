@@ -37,17 +37,17 @@ export default function NameEffect(){
                 <div className="relative z-10 lg:pl-14 pl-24 lg:mb-40 mt-32">
                   <h1 className="font-sans font-extrabold text-6xl lg:text-[84px] leading-[1.1] tracking-tight">
                     <span className={`transition-colors duration-500 ${lightOn ? 'text-white' : 'text-[#545454]'}`}>
-                      Nishul D
+                      Nishul Dh
                       <span className='lg:text-[#545454]'>
-                        hakar
+                        akar
                       </span>
                     </span>
                   </h1>
         
                   <div className="hidden lg:block font-sans font-medium text-lg lg:text-[20px] leading-relaxed max-w-lg">
                     <p className={`transition-colors duration-500 ${lightOn ? 'text-white' : 'text-[#545454]'}`}>
-                      build modern, scalable web apps wi
-                      <span className="text-[#545454]">th clean code and</span>
+                      build modern, scalable web apps with cle
+                      <span className="text-[#545454]">an code and</span>
                     </p>
                     <p className={`transition-colors duration-500 ${lightOn ? 'text-white' : 'text-[#545454]'}`}>
                       user-focused design.
